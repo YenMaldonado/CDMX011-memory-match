@@ -1,0 +1,52 @@
+body{
+    background-color: rgba(67, 88, 201, 1);
+}
+
+#description{
+    margin-left: 30px;
+}
+
+h2{
+    color: black;
+}
+
+h4{
+    color: rgba(44, 12, 75, 1);
+}
+
+h5{
+    text-align-last: center;
+    color: rgba(3, 38, 221, 1);
+    width: 110px;
+    height: 20px;
+    left: 109px;
+    top: 208px;
+    border-radius: 5px; 
+    background-color: rgba(151, 181, 209, 1);   
+}
+
+#root{
+    height: 200px;
+    width: 900px;
+    display: flex;
+    margin: 30px;
+    flex-wrap: wrap;
+    position: relative;
+    align-content: center;
+    display: -webkit-inline-flex;
+    justify-content: space-between;
+}
+
+img{
+    height: 120px;
+    width: 100px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    border: 1.5px; 
+    justify-content: space-between 2px;
+    background-color:rgba(188, 209, 232, 1) ; 
+}
+
+ 
+
+
