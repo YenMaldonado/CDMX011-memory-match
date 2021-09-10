@@ -14,13 +14,19 @@
 //   .catch(console.error);
 //
 
-const App = () => {
+/*const App = () => {
   const el = document.createElement('div');
 
   el.className = 'App';
   el.textContent = 'Hola mundo!';
 
   return el;
-};
+};*/
 
+const App = (items)=>{
+  for(let i = items.length -1; i>0; i--){
+    let j = Math.floor(Math.random()* (i+1));
+    [items[i], items[j]] = [items[j], items[i]];
+    }
+}
 export default App;
