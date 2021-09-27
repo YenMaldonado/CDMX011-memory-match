@@ -1,4 +1,4 @@
-import Button from "./Button.js";
+import Button from "./Button.js"
 import Description from "./Description.js";
 import Title from "./Title.js";
 

@@ -25,9 +25,9 @@ h5{
     background-color: rgba(151, 181, 209, 1);   
 }
 
-#rootElement {
-    height: 200px;
-    width: 900px;
+.showCards {
+    height: 400px;
+    width: 400px;
     display: flex;
     margin: 30px;
     flex-wrap: wrap;
@@ -36,15 +36,10 @@ h5{
     display: -webkit-inline-flex;
     justify-content: space-between;
 }
-
-.showCards{
-    display: flexbox;
-    align-content: center;
-}
  
 .imgTecnology {
-    height: 100px;
-    width: 100px;
+    height: 90px;
+    width: 90px;
     margin-bottom: 5px;
     margin-left: 10px;
     border-radius: 1.5px; 
