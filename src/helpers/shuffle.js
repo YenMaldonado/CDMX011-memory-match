@@ -1,12 +1,14 @@
-/*import data from '../data/webdev.js/webdev.js'
+import data from '../data/webdev/webdev.js';
 
-export const shuffle =(data)=>{
-    const dataRandomResult=[]
-    for(let i = items.length -1; i>0; i--){
+let dataDuplicate = data.items;
+//console.log('Aqui se usa la data random', shuffle())
+dataDuplicate = dataDuplicate.concat(data.items);
+
+export const shuffle =()=>{
+    //const dataRandomResult=[]
+    for(let i = dataDuplicate.length -1; i>0; i--){
     let j = Math.floor(Math.random()* (i+1));
-    [items[i], items[j]] = [items[j], items[i]];
+    [dataDuplicate[i], dataDuplicate[j]] = [dataDuplicate[j], dataDuplicate[i]];
     }
-    return dataRandomResult;
+    return dataDuplicate;
 };
-
-export default data;*/

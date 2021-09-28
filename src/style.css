@@ -47,3 +47,13 @@ h5{
     background-color:rgba(188, 209, 232, 1) ;   
 }
 
+.imgBack{
+    display: none;
+    height: 90px;
+    width: 90px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    border-radius: 1.5px; 
+    justify-content: space-between 2px; 
+}
+
