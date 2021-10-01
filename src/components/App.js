@@ -1,13 +1,15 @@
-import {Card} from './Card.js'
-import {shuffle} from '../helpers/shuffle.js'
+import { Card } from './Card.js'
+import { shuffle } from '../helpers/shuffle.js'
 
-shuffle();
-export const App = ()=> {
-  const container = document.createElement('section')
-  container.className = 'showCards'
-  shuffle().forEach(tecnologia=>{
+//shuffle();
+export const App = () => {
+  /*const container = document.createElement('div')
+  container.className = 'showCards'*/
+  const container = document.querySelector('.showCards');
+  container.innerHTML = '';
+  shuffle().forEach(tecnologia => {
     container.appendChild(Card(tecnologia))
   })
   return container;
 };
-export default App;
+
