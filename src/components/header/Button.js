@@ -9,13 +9,9 @@ export const Button = () => {
   btn.textContent = 'Reiniciar Partida';
 
   btn.addEventListener('click', () => {
-    /*const rootElement = document.querySelector('#root');
-    const conteinShuffle = document.querySelector('.showCards');
-    rootElement.removeChild(conteinShuffle);*/
-
     let shuffledCards = shuffle();
     App(shuffledCards);
-    // manipular el dom 
+    
   });
 
   return btn;

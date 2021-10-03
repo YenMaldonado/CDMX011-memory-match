@@ -1,8 +1,9 @@
+//import data from '../data/webdev/webdev.js'
+
 export const Card = (tecnologia)=>{
   let mainCards = document.createElement("div");
   // tip para probar si funciona sustituye la clase de abajo por mainCards.className = 'viewCards active';
   mainCards.className = 'viewCards'; // la clase ViewCards deberia ser la clase que NO muestra nada
-
   // Aqui crear el evento di da clic
    
   mainCards.className = 'viewCardsActive'; 
@@ -15,7 +16,12 @@ export const Card = (tecnologia)=>{
   const logo = document.createElement('img');
   logo.src = './Images/logo.jpg';
   logo.className = 'imgBack';
+  mainCards.setAttribute('id', tecnologia.id);
   mainCards.appendChild(logo);
+  
+  
+  
+
   
   return mainCards;
 }
